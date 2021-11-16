@@ -41,7 +41,7 @@ else if (Config.WORKTYPE == 'public') {
 	var plk_say = new Date().toLocaleString('HI', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
         const get_localized_date = { weekday: 'long', year: 'numeric', month: 'long', day: 'numeric' };
         var plk_here = new Date().toLocaleDateString(get_localized_date)
-	var afnplk = '```⏱ Time :' + plk_say + '```\n\n ```📅 Date :' + plk_here + '```'
+	var afnplk = '```⌚ Time :' + plk_say + '```\n\n ```🗓️ Date :' + plk_here + '```'
 	   
 	   	     var r_text = new Array ();    
 r_text[0] = "The greatest glory in living lies not in never falling, but in rising every time we fall.\n           -Nelson Mandela";
@@ -74,7 +74,7 @@ r_text[26] = "The only person you are destined to become is the person you decid
 r_text[27] = "When we strive to become better than we are, everything around us becomes better too.\n       -Paulo Coelho";
 r_text[28] = "There are three things you can do with your life: You can waste it, you can spend it, or you can invest it. The best use of your life is to invest it in something that will last longer than your time on Earth.\n       -Rick Warren";
 r_text[29] = "You only pass through this life once, you don't come back for an encore.\n       -Elvis Presley";
-r_text[30] = "motivate cheyaan aarkum kayyum ath cheyth kaanikkaaana paad.\n       -Pinky";    
+r_text[30] = "motivate cheyaan aarkum kayyum ath cheyth kaanikkaaana paad.\n       -Alexa";    
 var i = Math.floor(31*Math.random())
        
     if (Config.ALIVEMSG.includes('{pp}')) {
