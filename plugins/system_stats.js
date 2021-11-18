@@ -87,7 +87,7 @@ var i = Math.floor(31*Math.random())
 		   
 		   var a_plk = new Array ();
 
-        a_plk[0] = "https://i.imgur.com/zdcqaaG.jpeg";
+        a_plk[0] = "https://i.imgur.com/1PPJq0Q.jpeg";
         a_plk[1] = "https://mcdn.wallpapersafari.com/medium/20/69/juFNVl.jpg";
         a_plk[2] = "https://cdn.wallpapersafari.com/51/57/WXxpck.jpg";
         a_plk[3] = "https://cdn.wallpapersafari.com/72/42/nAdV2j.jpg";
@@ -97,13 +97,18 @@ var i = Math.floor(31*Math.random())
         a_plk[7] = "https://images.pexels.com/photos/8294554/pexels-photo-8294554.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500";
         a_plk[8] = "https://images.pexels.com/photos/8566473/pexels-photo-8566473.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500";
         a_plk[9] = "https://wallpapercave.com/wp/wp2957455.jpg";
-        a_plk[10] = "https://i.imgur.com/1PPJq0Q.jpeg";
+        a_plk[10] = "https://i.imgur.com/Vho1ZzN.jpeg";
         a_plk[11] = "https://images.app.goo.gl/kVsjRnUTmD7PzxWy6";
         a_plk[12] = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fc4.wallpaperflare.com%2Fwallpaper%2F703%2F438%2F351%2Fcute-robot-wallpaper-preview.jpg&imgrefurl=https%3A%2F%2Fwww.wallpaperflare.com%2Fcute-robot-stones-nature-flower-grass-green-3d-and-abstract-wallpaper-tidxn&docid=mPxUE4iRSbcMyM&tbnid=jZLJfivZV0Q5cM&vet=1&w=728&h=455&itg=1&client=ms-android-huawei&bih=524&biw=360&ved=2ahUKEwij157H4pz0AhXoxzgGHUIwAQ0QxiB6BAgBEBk&iact=c&ictx=1";
         a_plk[13] = "https://images.app.goo.gl/TuULZDB9RWhzn21CA";
         a_plk[14] = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fwallpaperaccess.com%2Ffull%2F2307759.jpg&imgrefurl=https%3A%2F%2Fwallpaperaccess.com%2Famazon-robot&docid=6y-akBTrx12jCM&tbnid=hlBWJPL1ilup2M&vet=1&w=2415&h=1602&itg=1&source=sh%2Fx%2Fim";
         a_plk[15] = "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcutewallpaper.org%2F21%2Fcute-box-robot-wallpaper%2FImage-about-danbo-pictures-in-schattig-by-crazy-things.jpg&imgrefurl=https%3A%2F%2Fcutewallpaper.org%2F21%2Fcute-box-robot-wallpaper%2Fview-page-21.html&docid=2NruobZHmXUYSM&tbnid=0TSjKBY5kSv0DM&vet=1&w=800&h=600&itg=1&source=sh%2Fx%2Fim";
-	 var p = Math.floor(16*Math.random())
+        a_plk[16] = "https://i.imgur.com/SWcI7sQ.jpeg";
+        a_plk[17] = "https://i.imgur.com/iHy7pI6.jpeg";
+        a_plk[18] = "https://i.imgur.com/q1QxqZM.jpeg";
+        a_plk[19] = "https://i.imgur.com/r9l6tCl.jpeg";
+        a_plk[20] = "https://i.imgur.com/mU8TLqg.jpeg";
+	 var p = Math.floor(21*Math.random())
 
         var plk_alive = await axios.get(`${a_plk[p]}`, { responseType: 'arraybuffer' })
 //codded by afnanplk
