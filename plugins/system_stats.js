@@ -108,7 +108,17 @@ var i = Math.floor(31*Math.random())
         a_plk[18] = "https://i.imgur.com/q1QxqZM.jpeg";
         a_plk[19] = "https://i.imgur.com/r9l6tCl.jpeg";
         a_plk[20] = "https://i.imgur.com/mU8TLqg.jpeg";
-	 var p = Math.floor(21*Math.random())
+        a_plk[21] = "https://i.imgur.com/1c02PnH.jpeg";
+        a_plk[22] = "https://i.imgur.com/dGFxEGu.jpeg";
+        a_plk[23] = "https://i.imgur.com/MyXn6Bk.jpeg";
+        a_plk[24] = "https://i.imgur.com/BkIiVoU.jpeg";
+        a_plk[25] = "https://i.imgur.com/o9Tz5ev.jpeg";
+        a_plk[26] = "https://i.imgur.com/6AWivWL.jpeg";
+        a_plk[27] = "https://i.imgur.com/2HhTXXY.jpeg";
+        a_plk[28] = "https://i.imgur.com/weQVcvy.jpeg";
+        a_plk[29] = "https://i.imgur.com/pdxMtW4.jpeg";
+        a_plk[30] = "https://i.imgur.com/d9f49Rs.jpeg";
+	 var p = Math.floor(31*Math.random())
 
         var plk_alive = await axios.get(`${a_plk[p]}`, { responseType: 'arraybuffer' })
 //codded by afnanplk
