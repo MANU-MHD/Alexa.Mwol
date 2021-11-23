@@ -1,5 +1,5 @@
 /* 
-plk
+all credit for afnanplk
 */
 
 const MyPnky = require('../events');
@@ -826,7 +826,7 @@ else if (config.WORKTYPE == 'public') {
         });
         await message.client.sendMessage(message.jid,buffer, MessageType.audio, {mimetype: Mimetype.mp4Audio,quoted: message.data,  ptt: true});
     }));
-
+/*
     MyPnky.addCommand({pattern: 'song ?(.*)', fromMe: false, desc: Lang.SONG_DESC}, (async (message, match) => { 
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_TEXT_SONG,MessageType.text);    
@@ -886,7 +886,7 @@ else if (config.WORKTYPE == 'public') {
             await message.client.sendMessage(message.jid,fs.readFileSync('./' + VID + '.mp4'), MessageType.video, {quoted: message.data ,mimetype: Mimetype.mp4});
         });
     }));
-
+*/
     MyPnky.addCommand({pattern: 'yt ?(.*)', fromMe: false, desc: Lang.YT_DESC}, (async (message, match) => { 
 
         if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORDS,MessageType.text);    
@@ -1282,4 +1282,3 @@ await message.client.sendMessage(message.jid, {displayname: "PINKY", vcard: p_lk
     
 }
 }
-
