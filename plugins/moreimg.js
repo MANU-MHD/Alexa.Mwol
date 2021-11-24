@@ -27,6 +27,15 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: true, dontAddCommandList: tru
 
 }));
   
+MyPnky.addCommand({ pattern: 'hacker ?(.*)', fromMe: true, desc: "Sad text effect", dontAddCommandList: true }, async (message, match) => {
+  if (match == '') return await message.sendMessage("Give me text")
+  const effect_url = "https://en.ephoto360.com/create-anonymous-hacker-avatars-cyan-neon-677.html"
+  const {status, url} = await ePhotoDownload(effect_url, match,"71074346-5cb3-4b7d-9b8b-a84e4f142ba4")
+  if(!status)return
+  const { buffer } = await getBuffer(url)
+  if (buffer !== false) return await message.sendMessage(buffer, {}, MessageType.image)
+});
+  
   MyPnky.addCommand({pattern: 'phub ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
     if (match[1] === '') return await message.client.sendMessage(message.jid,NEED_WORD);
