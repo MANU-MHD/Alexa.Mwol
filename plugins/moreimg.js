@@ -16,25 +16,6 @@ MyPnky.addCommand({pattern: 'moretxt', fromMe: true, desc: 'more txtit commands'
   await message.sendMessage('\n\n\n📱command : .break\n💎desc : change your text to wall breaking image.\n\n📱command : .phub\n💎desc : change your text into pornhub logo.\n🏷️example : .phuh BOT;X.\n\n📱command : .blood\n💎desc : change your text frozen blood on a glass\n\n📱command : .1917\n💎desc : change your text to a 1917 model image\n\n📱command : .maskman\n💎desc : change your text to mask man bg\n🏷️example : .avengers its;BOT X.\n\n📱command : .boxed\n💎desc : change your text to 3d boxed design\n\n📱command : .window\n💎desc : write your text on a foggy window \n\n📱command : .skywal\n💎desc : random sky wallpaper with given text\n\n📱command : .holo\n💎desc : change your text to holo design\n\n📱command : .drop\n💎desc : change your text into rain water drop.n\n📱command : .flame\n💎desc : text with fire effect.\n\n📱command : .vtext\n💎desc : text to video.\n\n📱command : .ptext\n💎desc : text to video.\n\n📱command : .colortext\n💎desc : text to colorfull video\n\n📱command : .cloud\n💎desc : text on cloud\n\n📱command : .2ninja\n💎desc : random ninja logo with given name.');
   
 }));
-
-MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
-
-    if (match[1] === '') return await message.client.sendMessage(message.jid,Lang.NEED_WORD);
-
-    var webimage = await axios.get(`https://api.zeks.xyz/api/breakwall?apikey=x2RjJIcchXaUJEO8gurQU0Kdrun&text=${match[1]}`, { responseType: 'arraybuffer' })
-
-  await message.client.sendMessage(message.jid,Buffer.from(webimage.data), MessageType.image, {mimetype: Mimetype.jpg })
-
-}));
-  
-MyPnky.addCommand({ pattern: 'hacker ?(.*)', fromMe: true, desc: "Sad text effect", dontAddCommandList: true }, async (message, match) => {
-  if (match == '') return await message.sendMessage("Give me text")
-  const effect_url = "https://en.ephoto360.com/create-anonymous-hacker-avatars-cyan-neon-677.html"
-  const {status, url} = await ePhotoDownload(effect_url, match,"71074346-5cb3-4b7d-9b8b-a84e4f142ba4")
-  if(!status)return
-  const { buffer } = await getBuffer(url)
-  if (buffer !== false) return await message.sendMessage(buffer, {}, MessageType.image)
-});
   
   MyPnky.addCommand({pattern: 'phub ?(.*)', fromMe: true, dontAddCommandList: true}, (async (message, match) => {
 
@@ -347,17 +328,20 @@ MyPnky.addCommand({pattern: 'break ?(.*)', fromMe: false, dontAddCommandList: tr
 
    }));
   
-   MyPnky.addCommand({ pattern: 'hacker ?(.*)', fromMe: true, desc: "Sad text effect", dontAddCommandList: true }, async (message, match) => {m
-     
+   Mypnky.addCommand({ pattern: 'hacker ?(.*)', fromMe: true, desc: "Sad text effect", dontAddCommandList: true }, async (message, match) => {
+
   if (match == '') return await message.sendMessage("Give me text")
-     
+
   const effect_url = "https://en.ephoto360.com/create-anonymous-hacker-avatars-cyan-neon-677.html"
-  
+
   const {status, url} = await ePhotoDownload(effect_url, match,"71074346-5cb3-4b7d-9b8b-a84e4f142ba4")
 
   if(!status)return
+
   const { buffer } = await getBuffer(url)
+
   if (buffer !== false) return await message.sendMessage(buffer, {}, MessageType.image)
+
 });
   
    MyPnky.addCommand({pattern: 'drop ?(.*)', fromMe: false, dontAddCommandList: true}, (async (message, match) => {
