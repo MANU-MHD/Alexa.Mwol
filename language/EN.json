@@ -30,13 +30,13 @@
         },
         "admin": {
             "BAN_DESC": "Ban someone in the group. Reply to message or tag a person to use command.",
-            "IM_NOT_ADMIN": "ꜱᴏʀʀʏ ᴀᴍ ɴᴏᴛ ᴀᴅᴍɪɴ",
-            "BANNED": "ʀᴇᴍᴏᴠᴇᴅ ꜰʀᴏᴍ ɢʀᴏᴜᴘ",
-            "GIVE_ME_USER": "ɢɪᴠᴇ ᴍᴇ ᴀ ᴜꜱᴇʀ",
+            "IM_NOT_ADMIN": "*Sorry I am not an admin*",
+            "BANNED": "*Removed from group*",
+            "GIVE_ME_USER": "*Give me a user*",
             "ADD_DESC": "Adds someone to the group.",
-            "ADDED": "ᴀᴅᴅᴇᴅ ᴛᴏ ᴛʜᴇ ɢʀᴏᴜᴘ",
-            "ALREADY_PROMOTED": "ʜᴇ ɪꜱ ᴀʟʀᴇᴀᴅʏ ᴀᴅᴍɪɴ ᴏᴏᴘᴢ",
-            "PROMOTED": ", ᴄᴏɴɢʀᴀᴛᴢ ʏᴏᴜ ᴀʀᴇ ᴘʀᴏᴍᴏᴛᴇᴅ",
+            "ADDED": "*Added to the group*",
+            "ALREADY_PROMOTED": "Oops..He is already an admin",
+            "PROMOTED": ", Congrats you are promoted",
             "PROMOTE_DESC": "Makes any person an admin.",
             "PLKADMIN": ".report you are not admin \n\n 🇩​🇴​🇳​🇹​ 🇹​🇷​🇾​ 🇦​🇬​🇦​🇮​🇳​, 🇮​🇫​ 🇾​🇴​🇺​ 🇹​🇷​🇾​ 🇾​🇴​🇺​ 🇼​🇮​🇱​🇱​ 🇧​🇪​ 🇷​🇪​🇲​🇴​🇻​🇪​🇩​ 🇧​🇾​ 🇦​🇩​🇲​🇮​🇳​🇸​",
             "DEMOTE_DESC": "Takes the authority of any admin.",
@@ -80,7 +80,7 @@
             "RESTART_DESC": "Restart Alexa",
             "RESTART_MSG": "ʀᴇꜱᴛᴀʀᴛɪɴɢ alexa",
             "SHUTDOWN_DESC": "Shutdown alexa",
-            "SHUTDOWN_MSG": "```Alexa shutting down ⛔```",
+            "SHUTDOWN_MSG": "```Alexa🧚‍♀️ shutting down ⛔```",
             "DYNO_DESC": "Check heroku dyno usage",
             "DYNO_TOTAL": "```Total Quota```",
             "DYNO_USED": "```Quota used```",
@@ -142,13 +142,13 @@
         },
         "memes": {
             "MEMES_DESC": "Photo memes you replied to.",
-            "NEED_REPLY": "*Reply to a photo!*",
-            "DOWNLOADING": "```Downloading media & making meme...```"
+            "NEED_REPLY": "*Reply to a photo!🧚‍♀️*",
+            "DOWNLOADING": "```Downloading media & making meme...🧚‍♀️```"
         },
         "ocr": {
             "OCR_DESC": "Reads the text on the photo you have replied.",
-            "NEED_REPLY": "*Reply to a photo!*",
-            "DOWNLOADING": "```Media is downloading & reading...```",
+            "NEED_REPLY": "*Reply to a photo!🧚‍♀️*",
+            "DOWNLOADING": "```Media is downloading & reading...🧚‍♀️```",
             "ERROR": "```I couldn't read this :/```\n*Error:*```{}```",
             "RESULT": "*Language:* ```{}```\n*Here is what I read:* ```{}```"
         },
@@ -173,12 +173,12 @@
             "REMOVEBG_DESC": "Removes the background of the photos.",
             "NEED_PHOTO": "*Give me a photo!*",
             "NO_API_KEY": "*You don't have an API key!*\nYou can get it here: remove.bg.",
-            "RBGING": "```ʀᴇᴍᴏᴠɪɴɢ ʙᴀᴄᴋɢʀᴏᴜɴᴅ```"
+            "RBGING": "```Removing background...```"
         },
         "scrapers": {
             "TRANSLATE_DESC": "It translates with Google Translate. You must reply any message.",
             "TRANSLATE_USAGE": ".trt tr it (From Turkish to Italian)",
-            "NEED_REPLY": "```Please reply to any message!```",
+            "NEED_REPLY": "```Please reply to any message!🧚‍♀️```",
             "LANG": "Language",
             "FROM": "Translated Language",
             "RESULT": "Translate",
@@ -193,25 +193,25 @@
             "SONG_DESC": "Uploads the song you wrote.",
             "SING_DESC": "Sings the song you wrote.",
             "NEED_TEXT_SONG": "ᴘʟᴇᴀꜱᴇ ᴡʀɪᴛᴇ ᴀ ꜱᴏɴɢ \n ᴇxᴀᴍᴘʟᴇ:.ꜱᴏɴɢ ᴏᴘᴇɴ ʏᴏᴜʀ ᴡɪɴɢꜱ  \n\n if .song doesnot work try .get",
-            "NEED_TEXT_SING": "*Tell me which song to sing !*\n*Example:* ```.sing open your wings```",
+            "NEED_TEXT_SING": "*Tell me which song to sing🧚‍♀️ !*\n*Example:* ```.sing open your wings```",
             "NO_RESULT": "*I couldn't find anything :(*",
             "GET_DESC": "Instagram youtube downloader",
             "NEED_SOME": "Give me link \n example: .get <instagram or youtube link here>. \n\n to download youtube song (audio only) \n example: .get shape of you \n    or    \n.get https://www.youtube.com/watch?v=t1r_tmgQago mp3",
             "LINK_TEXT": "The given link or text",
             "NO_SPRT": "Is not found or not supported",
-            "DOWNLOADING_SONG": "ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ꜱᴏɴɢ",
-            "DOWNLOADING_SING": "ɢᴇᴛ ʀᴇᴀᴅʏ ᴛᴏ ʜᴇᴀʀ ᴍᴇ ꜱɪɴɢ",
-            "UPLOADING_SONG": "ᴜᴘʟᴏᴀᴅɪɴɢ ꜱᴏɴɢ",
-            "UPLOADING_SING": " ᴀʀᴇ ʏᴏᴜ ʀᴇᴀᴅʏ ᴛᴏ ʜᴇᴀʀ ",
+            "DOWNLOADING_SONG": "*Downloading song..🧚‍♀️*",
+            "DOWNLOADING_SING": "*Get ready to hear me🧚‍♀️*",
+            "UPLOADING_SONG": "*Uploading song🧚‍♀️*",
+            "UPLOADING_SING": " *Are you ready to hear🧚‍♀️ ",
             "VIDEO_DESC": "Downloads video from YouTube.",
             "NEED_VIDEO": "*Please write a video link!*\n*Example:* ```.video https://www.youtube.com/watch?v=t1r_tmgQago``` \n\nif .video does not work try .get",
-            "DOWNLOADING_VIDEO": "ᴡᴀɪᴛ ᴀᴍ ꜱᴇᴀʀᴄʜɪɴɢ",
-            "UPLOADING_VIDEO": "ʜᴀʜᴀ ꜰᴏᴜɴᴅ ɪᴛ",
+            "DOWNLOADING_VIDEO": "*Wait am searching🧚‍♀️",
+            "UPLOADING_VIDEO": "Hehe.. Got it🧚‍♀️",
             "YT_DESC": "It searchs on YouTube.",
             "NEED_WORDS": "```Please write a few words!```",
-            "GETTING_VIDEOS": "```I'm bringing videos...```",
+            "GETTING_VIDEOS": "```I'm bringing videos...🧚‍♀️```",
             "NOT_FOUND": "*I couldn't find anything :(*",
-            "SEARCHING": "* 🔎 Searching...*",
+            "SEARCHING": "* 🔎 Searching...🧚‍♀️*",
             "WIKI_DESC": "Searches query on Wikipedia.",
             "IMG_DESC": "Searches for related pics on Google.",
             "IMG": "Uploading photo ```{}``` number ```{} ```..."
@@ -219,7 +219,7 @@
         "sticker": {
             "STICKER_DESC": "It converts your replied photo or video to sticker.",
             "NEED_REPLY": "\n*Reply to a photo or video!*\n",
-            "DOWNLOADING": "ᴄʀᴇᴀᴛɪɴɢ ꜱᴛɪᴄᴋᴇʀ"
+            "DOWNLOADING": "*Creating sticker🧚‍♀️*"
         },
         "system_stats": {
             "ALIVE_DESC": "Does bot work?",
@@ -241,14 +241,14 @@
         },
         "updater": {
             "UPDATER_DESC": "Checks the update for alexa.",
-            "UPDATE": "ʏour Alexa is completely up-to-date",
+            "UPDATE": "Your Alexa is completely up-to-date",
             "NEW_UPDATE": "*New update available for alexa!*\n\n ```use .list for commands``` \n\n *ask support before updating or your bot might stop working* \n\n wa.me/918281363016 \n\n *-if bot stop working you will have to re-deploy* \n\n Updates are:\n\n ",
             "UPDATE_NOW_DESC": "It makes updates.",
-            "UPDATING": "Alexa ᴜᴘᴅᴀᴛɪɴɢ...",
+            "UPDATING": "Alexa updating🧚‍♀️...",
             "INVALID_HEROKU": "*❌ Your Heroku information is wrong!*",
-            "UPDATED": "*✅ successfully updated!*",
-            "UPDATED_LOCAL": "*✅ Successfully Updated!*",
-            "AFTER_UPDATE": "*💬 Alexa ʀᴇꜱᴛᴀʀᴛɪɴɢ ᴀᴜᴛᴏᴍᴀᴛɪᴄᴀʟʟʏ!*",
+            "UPDATED": "*✅ successfully updated!🧚‍♀️*",
+            "UPDATED_LOCAL": "*✅ Successfully Updated!🧚‍♀️*",
+            "AFTER_UPDATE": "*💬 Alexa restarting automatically!🧚‍♀️*",
             "IN_AF": "*Please check* ```HEROKU_APP_NAME``` *and* ```app name``` *They must be same.*\n*If these two values ​​are the same, please restore* ```HEROKU_API_KEY```\n\n_To access these settings, use Heroku >> App >> Settings >> Reavel Config Vars_\n_To renew your API key, follow these steps, Heroku >> Account >> API Key then replace old api key in config vars._"
         },
         "whois": {
@@ -296,10 +296,10 @@
         },
         "conventer": {
             "MP4TOAUDİO_DESC": "Converts video to sound.",
-            "MP4TOAUDİO_NEEDREPLY": "\n*You Must Reply to a Video!*\n",
-            "MP4TOAUDİO": "\n```Converting Video to Audio..\n```",
+            "MP4TOAUDİO_NEEDREPLY": "\n*You Must Reply to a Video!🧚‍♀️*\n",
+            "MP4TOAUDİO": "\n```Converting Video to Audio..🧚‍♀️\n```",
             "ANİM_STİCK": "Converts animated stickers to video.",
-            "ANİMATE": "\n```Converting Animated Sticker To Video..```\n",
+            "ANİMATE": "\n```Converting Animated Sticker To Video..🧚‍♀️```\n",
             "STİCKER_DESC": "Converts the sticker to a photo.",
             "STİCKER_NEEDREPLY": "\n*You Must Reply to a sticker!*\n",
             "STİCKER": "```Converting the sticker to a photo..```",
@@ -389,8 +389,8 @@
         },
         "unvoice": {
             "UV_DESC": "Converts audio to sound recording.",
-            "UV_REPLY": "*You Must Reply to the Audio File!*",
-            "UV_PROC": "```Converting to Sound Recording..```"
+            "UV_REPLY": "*You Must Reply to the Audio File!🧚‍♀️*",
+            "UV_PROC": "```Converting to Sound Recording..🧚‍♀️```"
         },
         "ffmpeg": {
             "FF_DESC": "Applies the desired ffmpeg filter to the video.\n⌨️ Example: .ffmpeg fade=in:0:30",
@@ -400,7 +400,7 @@
             "SPAM_DESC": "It spam until you stop it.\n⌨️ Example: .spam test",
             "NEED_WORD": "*Need Some Words!*",
             "STOP_SPAMDESC": "Stops spam command.",
-            "STOP_SPAM": "✅ *Spam successfully stopped! Please wait a moment.*",
+            "STOP_SPAM": "✅ *Spam successfully stopped! Please wait a moment.🧚‍♀️*",
             "ST_DESC": "Convert the replied photo or video to sticker and send it as spam.",
             "ST_ST": "```Please Don't Reply to Stciker!```\n```Only Reply to Video or Photo!```",
             "ST_NEED": "```You Must Reply To Any Video Or Photo!```",
@@ -429,7 +429,7 @@
         "ttp": {
             "TTP_DESC": "Converts text to plain painting.",
             "ATTP_DESC": "Adds rainbow effect to the text as a sticker.",
-            "NEED_WORD": "*You must enter words!*",
+            "NEED_WORD": "*You must enter words!🧚‍♀️*",
             "ANIME_DESC": "It writes the text inside the banner the anime girl is holding",
             "TRUMP_DESC": "Converts the text to Trump's tweet.",
             "CHANGE_DESC": "Turns the text into the change my mind poster.",
@@ -443,8 +443,8 @@
             "LİNK": "You must enter link!"
         },
         "voicy": {
-            "NEED_REPLY": "```Please reply to any message!```",
-            "ONLY_AUDIO":"```Only audio file is accepted.```",
+            "NEED_REPLY": "```Please reply to any message!🧚‍♀️```",
+            "ONLY_AUDIO":"```Only audio file is accepted.🧚‍♀️```",
             "USAGE": "It converts audio to text.",
             "TEXT": "*Hey! I listened secretly to this voice and heard those!:* \n\n"
         },
@@ -460,7 +460,7 @@
             "SUCCESSFULLY_DELETED": "Successfully deleted all your notes."
         },
         "instagram": {
-            "NEED_WORD": "*Enter Any Instagram Post Link!*",
+            "NEED_WORD": "*Enter Any Instagram Post Link!🧚‍♀️*",
             "USAGE": ".insta <userName>",
             "DESC": "Downloads videos or photos from Instagram.",
             "LOADING": "Fetching user data.. please wait.",
