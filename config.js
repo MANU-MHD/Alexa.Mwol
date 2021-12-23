@@ -23,6 +23,7 @@ module.exports = {
     AUTOBİO: process.env.AUTO_BİO === undefined ? 'false' : process.env.AUTO_BİO,
     AFN: process.env.ALL_CAPTION === undefined ? 'MADE BY ALEXA' : process.env.ALL_CAPTION,
     CB: process.env.CB === undefined ? 'true' : process.env.CB,
+    WHTDL: process.env.BGM_DURATION === undefined ? '39999600' : process.env.BGM_DURATION,
     ALL_LINK_BAN: process.env.ALL_LINK_BAN === undefined ? 'false' : process.env.ALL_LINK_BAN,
     STANDPLK: process.env.STANDBY_MODE === undefined ? 'off' : process.env.STANDBY_MODE,
     PM_BLOCK: process.env.PM_BLOCK === undefined ? 'false' : process.env.PM_BLOCK,
