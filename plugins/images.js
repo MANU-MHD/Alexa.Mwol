@@ -736,7 +736,7 @@ if (Config.WORKTYPE == 'private') {
 
     }));
     
-    MyPnky.addCommand({pattern: 'pink', fromMe: true,dontAddCommandList: true}, (async (message, match) => {
+    MyPnky.addCommand({pattern: 'song', fromMe: true,dontAddCommandList: true}, (async (message, match) => {
         
     var r_text = new Array ();    
 r_text[0] = "\nEda eda, mandankonappi.. Nee enne kooduthal mandan aakkatheda\n";
@@ -1504,7 +1504,7 @@ else if (Config.WORKTYPE == 'public') {
 
     }));
     
-    MyPnky.addCommand({pattern: 's', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
+    MyPnky.addCommand({pattern: 'song', fromMe: false,dontAddCommandList: true}, (async (message, match) => {
         
     var r_text = new Array ();    
 r_text[0] = "\nEda eda, mandankonappi.. Nee enne kooduthal mandan aakkatheda\n";
@@ -1543,7 +1543,6 @@ var i = Math.floor(31*Math.random())
 await message.sendMessage(r_text[i]);
 
 }));
-    
     
 }
 }
