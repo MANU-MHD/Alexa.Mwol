@@ -29,7 +29,7 @@ const sudoEN = "SUDO, Shares your bot to the user you choose with all its powers
 if (Config.STANDPLK == 'off' || Config.STANDPLK == 'OFF') {
 if (Config.LANG == 'TR' || Config.LANG == 'AZ') {
     
-    MyPnky.addCommand({pattern: 'help ?(.*)', fromMe: true, desc: h_Des}, (async (message, match) => {
+    MyPnky.addCommand({pattern: 'ghelp ?(.*)', fromMe: true, desc: h_Des}, (async (message, match) => {
 
         if (match[1] === '') {
             return await message.client.sendMessage(
@@ -77,7 +77,7 @@ if (Config.LANG == 'TR' || Config.LANG == 'AZ') {
 }
 else {
     
-    MyPnky.addCommand({pattern: 'help ?(.*)', fromMe: true, desc: h_DedEN}, (async (message, match) => {
+    MyPnky.addCommand({pattern: 'ghelp ?(.*)', fromMe: true, desc: h_DedEN}, (async (message, match) => {
 
         if (match[1] === '') {
             return await message.client.sendMessage(
