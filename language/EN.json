@@ -78,7 +78,7 @@
         },
         "heroku": {
             "RESTART_DESC": "Restart pinky",
-            "RESTART_MSG": "ʀᴇꜱᴛᴀʀᴛɪɴɢ ᴘɪɴᴋʏ",
+            "RESTART_MSG": "_Alexa restarting...🙃_",
             "SHUTDOWN_DESC": "Shutdown pinky",
             "SHUTDOWN_MSG": "```Shutting down ⛔```",
             "DYNO_DESC": "Check heroku dyno usage",
@@ -243,11 +243,11 @@
             "UPDATER_DESC": "Checks the update for Alexa.",
             "UPDATE": "Your pinky is completely up-to-date",
             "NEW_UPDATE": "*New update available for alexa!*\n\n ```use .list for commands``` \n\n *ask support before updating or your bot might stop working* \n\n wa.me/918281363016 \n\n *-if bot stop working you will have to re-deploy* \n\n Updates are:\n\n ",
-            "UPDATING": "Alexa updating...",
+            "UPDATING": "_Alexa updating...💕_",
             "INVALID_HEROKU": "*❌ Your Heroku information is wrong!*",
             "UPDATED": "*✅ ꜱᴜᴄᴄᴇꜱꜱꜰᴜʟʟʏ ᴜᴘᴅᴀᴛᴇᴅ!*",
             "UPDATED_LOCAL": "*✅ Successfully Updated!*",
-            "AFTER_UPDATE": "*Alexa restarting automatically!*",
+            "AFTER_UPDATE": "*Alexa restarting automatically!😇*",
             "IN_AF": "*Please check* ```HEROKU_APP_NAME``` *and* ```app name``` *They must be same.*\n*If these two values ​​are the same, please restore* ```HEROKU_API_KEY```\n\n_To access these settings, use Heroku >> App >> Settings >> Reavel Config Vars_\n_To renew your API key, follow these steps, Heroku >> Account >> API Key then replace old api key in config vars._"
         },
         "whois": {
