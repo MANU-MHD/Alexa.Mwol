@@ -11,7 +11,7 @@
 </p>
 </div>
 <p align="center">
-Project created by <a href="https://github.com/HARI-SANTH">Hari</a> to make it public
+Project created by <a href="https://github.com/HARI-SANTH">Hari</a> and <a href="https://github.com/MANU-MHD">Manu<a> <a to  make it public
     <br>
        | © |
         Reserved |
