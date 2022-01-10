@@ -1,9 +1,9 @@
 {
-    "name": "ALEXA",
-    "description": "ALEXA - re-edited from PINKY AFNAN.",
-    "logo": "https://i.imgur.com/aFmdYAi.jpeg",
+    "name": "Noah",
+    "description": "Noah - re-edited from PINKY AFNAN.",
+    "logo": "",
     "keywords": ["whatsapp", "userbot", "Asena", "WhatsAsena", "bot", "api", "ai"],
-    "repository": "https://github.com/HARI-SANTH/Pinky",
+    "repository": "https://github.com/MANU-MHD/Pinky",
     "website":   "under maintenance",
     "success_url": "under maintenance",
     "stack": "container",
